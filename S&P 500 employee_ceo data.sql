@@ -52,6 +52,6 @@ GROUP BY industry;
 #calculating the industry with the hightest combined salaries
 SELECT company_name, ceo_name,industry,salary, MAX((salary + median_worker_pay )/2) as maximum_average FROM `s&p_500_data`.ceo_data_pay_merged_sp500
 
-
+#Add comment
 
 
