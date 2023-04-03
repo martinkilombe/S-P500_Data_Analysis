@@ -18,6 +18,7 @@ SET industry = REPLACE(REPLACE(industry ,'%', ''),'20','');
 ALTER TABLE `s&p_500_data`.ceo_data_pay_merged_sp500
 DROP COLUMN pay_ratio;
 
+#Basic analytics
 #5.Calculating  the highest paid worker and ceo salary from the table
 SELECT company_name, ceo_name,MAX(salary) , MAX(median_worker_pay) FROM `s&p_500_data`.ceo_data_pay_merged_sp500;
 
