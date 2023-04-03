@@ -19,7 +19,7 @@ ALTER TABLE `s&p_500_data`.ceo_data_pay_merged_sp500
 DROP COLUMN pay_ratio;
 #Remove commas(,) and full stops(.) in company_Name field
 UPDATE `s&p_500_data`.ceo_data_pay_merged_sp500
-SET company_name = REPLACE(company_name,',','');
+SET company_name = REPLACE(REPLACE(company_name,',',''),'.','');
 
 #Basic analytics
 #5.Calculating  the highest paid worker and ceo salary from the table
