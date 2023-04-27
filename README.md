@@ -23,13 +23,16 @@
 
 
 Here's a brief overview of the project goals
-- Clean Data. 
-  1. Removing the dollar( $) sign and comma(,) from the median_worker_pay,salary and convert to integer
-  2. Remove '%' and '20' in industry section (commiunication column)
-  3. Droping the Pay_ratio column since its not important in calculation
+- Cleaning Data. 
+  1. Removing the dollar( $) sign and comma(,) from the median_worker_pay,salary and convert to integer.
+  2. Remove '%' and '20' in industry section (commiunication column).
+  3. Droping the Pay_ratio column since its not important in calculation.
+  4. Remove commas(,) and full stops(.) in company_Name field.
   
 - Basic Analysis and Exploration
-  1. Checked for the Best performing company and arranged in Ascending order
-  2. Compared company which have a large asset base compared to their market value
-  3. Calculated company value where what percentage the asset value is greater than the market_value
-
+  1. Calculating the highest and lowest paid worker and ceo salary from the table.
+  2. Calculate the vairiation/PERCENTAGE difference IN CEO salary vs the median worker salary .
+  3. Calculating ceo salary that is above the industry average.
+  4. Calculating the ceo salary in each industry.
+  5. Calculating the ceo salary that is below the industry average.
+  
